@@ -1,6 +1,6 @@
 '''This file gets the news from https://newsapi.org and loads in all the images related to the news by filling up the widgets defined in newsgui.py'''
 
-import urllib.request, json, newsgui
+import urllib.request, json, main
 from tkinter import *
 from PIL import Image
 
