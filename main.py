@@ -1,21 +1,3 @@
-
-
-'''
-News GUI
-News GUI is a clean, intuitive and functional GUI written in python. 
-The module Tkinter is used to create a native GUI and several APIs are used to collect various data like the latest news, financial information, weather data and covid-19 statistics. 
-The data is collected from the APIs using the python requests library in the json format and is then parsed by the json module. 
-The parsed data is then organized in the GUI using the Tkinter widgets. The Tkinter widgets - buttons, labels, canvas and frame - are gridded into the GUI and the final layout is presented to the user.
-Salient features include:
-    Intuitive layout
-    Automatic detection of the user's country and location using the network IP address
-    Current weather information for the user's city
-    Latest information about the value of user inputted stocks, neatly organized in a graph
-    Top news in the user's country with related pictures and a short snippet of the article. When button or text is clicked, user is taken to the article in the default web browser
-    Currency converter and Exachange rates 
-    Calandar Manager with dynamic listing on the preference of the user.
-    Automatic dark theme based on the time of the day to reduce strain on the eyes
-'''
 from tkinter import *
 from tkcalendar import *
 from tkinter import messagebox
