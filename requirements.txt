@@ -1,0 +1,6 @@
+geopy
+matplotlib
+Pillow
+Requests
+tkcalendar
+yfinance
